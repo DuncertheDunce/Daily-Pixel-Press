@@ -1,0 +1,54 @@
+{
+  "title": "The Daily Pixel Press",
+  "tagline": "“All the news that’s fit to play.”",
+  "timezone": "America/Chicago",
+  "max_age_days": 14,
+  "countdown": { "date": "2026-12-10", "label": "until Attack on Titan 3 launches" },
+  "sections": [
+    {
+      "name": "Attack on Titan", "color": "#e63946", "emoji": "⚔️", "count": 4,
+      "feeds": ["https://news.google.com/rss/search?q=%22Attack+on+Titan%22+when%3A14d&hl=en-US&gl=US&ceid=US:en"]
+    },
+    {
+      "name": "Anime", "color": "#ff7a1a", "emoji": "🌸",
+      "feeds": [
+        "https://www.animenewsnetwork.com/all/rss.xml",
+        "https://news.google.com/rss/search?q=anime+news+when%3A7d&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Roblox & Game Creation", "color": "#2a6fdb", "emoji": "🧱",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Roblox+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%22game+development%22+indie+when%3A7d&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Deltarune & Undertale", "color": "#8b5cf6", "emoji": "💜",
+      "feeds": ["https://news.google.com/rss/search?q=Deltarune+OR+Undertale+when%3A30d&hl=en-US&gl=US&ceid=US:en"]
+    },
+    {
+      "name": "The Binding of Isaac", "color": "#b45309", "emoji": "👶",
+      "feeds": ["https://news.google.com/rss/search?q=%22Binding+of+Isaac%22+when%3A30d&hl=en-US&gl=US&ceid=US:en"]
+    },
+    {
+      "name": "Minecraft", "color": "#2a9d6f", "emoji": "⛏️",
+      "feeds": ["https://news.google.com/rss/search?q=Minecraft+when%3A7d&hl=en-US&gl=US&ceid=US:en"]
+    },
+    {
+      "name": "VR", "color": "#0ea5e9", "emoji": "🥽",
+      "feeds": [
+        "https://www.uploadvr.com/rss/",
+        "https://news.google.com/rss/search?q=VR+headset+when%3A7d&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Music", "color": "#ec4899", "emoji": "🎵",
+      "feeds": ["https://news.google.com/rss/search?q=new+music+releases+when%3A3d&hl=en-US&gl=US&ceid=US:en"]
+    },
+    {
+      "name": "Arts & Crafts", "color": "#14b8a6", "emoji": "🎨",
+      "feeds": ["https://news.google.com/rss/search?q=DIY+arts+and+crafts+when%3A14d&hl=en-US&gl=US&ceid=US:en"]
+    }
+  ]
+}
